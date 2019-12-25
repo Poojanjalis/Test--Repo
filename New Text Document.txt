@@ -1,0 +1,68 @@
+Git workflow... 
+Git overview 
+
+Centralize workflow
+Master branch :- remote and local
+Merge :- once commit in local master then merge it to remote maste branch
+
+Working directory:- What ever the project files we are working in can be tracked by git that folder is termed as working directory.
+
+Staging area:- git maintaince a .git folder to store a specific file. and it term this folder as a repository. (index in .git folder is termed as a staging area.)
+
+localrepository:- .git folder is termed as a local repository where it tered as a local repository.
+it is hosted in your file system taht why it is called as local repository.
+
+Remote repository:- wmsinvetoryservice , is a hosted repository it is remote repository, from where i cloned folder in my local system .
+--------------------------------------------------------------------------------------------------------------
+After that i will make some changes in that folder in our local system.. then we will commit.
+before finally push to remote repo. we need to perform two operation before finally do push to the remote repository.
+
+1.  Git add on the file that we want to commit. --->> git add f1 f2 f3   // this 3 files will go to staging area. , files will go to the local repository once i fire git commit command.
+ we are staging this files for commit.
+
+2.  git commit command :-   ----->> git commit -m  // this files would get commited to the local repository, this file will commited to the local file system.
+
+3. git push :-- for making changes in hte remote repository we need to perform git push operation.
+as soon as we file git push operation this local branch changes would get refelcted on the remote server and the file will gte reflected onthe remote server.
+
+-------------------------------------------------------------------------------------------------------------------
+4. git fetch :- wheenever you wnt to fetch any changes from the remote server to the local file system then you need to do the git fetch and then you need to perform git merge then 
+it would reflect in your local system.
+
+**********
+Branches:- local repository :- local branches and remote tracking branches
+ remote repo:- remote branches. 
+-------------------------------------------------------------------------------------------------------------------
+
+
+Git clone
+---------
+
+how to bring folder form the remote server to locla server.
+If we will delete this folder form our local system then it will not affect to the remote server.  bcoz without push it wont affect to the remote server.
+ 
+create a folder in your system  then right click on that git clone,...--> 
+url:- (paster here the url of that repository from where you want to take the file)
+Ok
+successfull that file will colne into your system from rwmote server url.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Git commit and git push operation using tortoise git
+----------------------------------------------------
+
+modify the file:-we will perform some changes in our file in local repository, which we clonned from remote server.. then save. 
+ tracked and untracked file
+tracked file:- green icon 
+tracking in progress:- red color icon
+untracked file;- no sign. (the files which we newely added here.)
+
+---------------
+Check the file status:-
+right clickon folder then ------> tortoisegit ----> then check the status of file which we want to check it will show status 
+how many files are modified and how many are not versioned.
+
+
+
+ 
+ 
